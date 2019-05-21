@@ -5,7 +5,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import { Server } from 'http';
 import SocketIO from 'socket.io';
-import Logger from './libs/logger';
+import Logger from './utils/logger';
 
 dotenv.config();
 
