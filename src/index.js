@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import express from 'express';
 import mongoose from 'mongoose';
 import { Server } from 'http';
-import SocketIO from 'socket.io';
+import SocketIO from 'socket.io-client';
 import Logger from './utils/logger';
 
 dotenv.config();
